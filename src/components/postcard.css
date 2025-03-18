@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-list {
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.post-card {
+  background-color: #222; 
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px; 
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
